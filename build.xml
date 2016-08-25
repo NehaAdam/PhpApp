@@ -24,7 +24,7 @@
    		<mkdir dir="./cache" />
 		<mkdir dir="./logs" />
 		<exec dir="./test" executable="phpunit" failonerror="true">
-			<arg value="/var/lib/jenkins/workspace/PhpApp/test/UserManagementTest.php"/>
+			<arg value="/var/lib/jenkins/workspace/PhpApp/tests/UserManagementTest.php"/>
 		</exec>
  	</target>
 </project> 
