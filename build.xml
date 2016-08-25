@@ -13,7 +13,7 @@
 	 <target name="msg">
 	  <echo> "hello"</echo>
 	 </target>
-	<target name="zip" depends="unzip">
+	<target name="zip" depends="phpunit">
 		<zip destfile="${project-name}.zip" basedir="${folder-to-zip}" excludes="database-script.*" />
 	</target>
 	<target name="unzip">
