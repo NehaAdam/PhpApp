@@ -1,0 +1,7 @@
+<phpunit colors="true">
+    <testsuites>
+        <testsuite name="Application Test Suite">
+            <directory>./var/www/DemoPHPPrj/htdocs/test</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>

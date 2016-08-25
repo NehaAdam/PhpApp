@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="PhpApp" default="welcome" basedir=".">
+ 	<property name="message" value="Demo Project build!"/>
+	 <property name="project-name" value="${src}" />
+	<property name="folder-to-zip" value="src" />
+	<property name="unzip-destination" value="unzip" />
+
+	<target name="clean">
+		<delete file="${project-name}.zip" />
+		<delete dir="${unzip-destination}" />
+	</target>
+	 <target name="msg">
+	  <echo> "hello"</echo>
+	 </target>
+	<target name="zip" depends="unzip">
+		<zip destfile="project-name.zip" basedir="${folder-to-zip}" excludes="database-script.*" />
+	</target>
+	<target name="unzip">
+		<unzip src="project-name.zip" dest="${unzip-destination}" />
+	</target>
+</project> 

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="UserManagementTest" file="/var/www/html/DemoPHPPrj/tests/UserManagementTest.php" tests="3" assertions="3" failures="0" errors="0" time="0.002466">
+    <testcase name="testVerifyPassword1NPassword2" class="UserManagementTest" file="/var/www/html/DemoPHPPrj/tests/UserManagementTest.php" line="7" assertions="1" time="0.001059">
+      <system-out>&lt;p&gt;password match. Test1 Pass&lt;/p&gt;</system-out>
+    </testcase>
+    <testcase name="testVerifySearchStringNotEmpty" class="UserManagementTest" file="/var/www/html/DemoPHPPrj/tests/UserManagementTest.php" line="18" assertions="1" time="0.000703">
+      <system-out>&lt;p&gt;Test2 pass&lt;/p&gt;</system-out>
+    </testcase>
+    <testcase name="testVerifyUserExists" class="UserManagementTest" file="/var/www/html/DemoPHPPrj/tests/UserManagementTest.php" line="28" assertions="1" time="0.000704">
+      <system-out>&lt;p&gt;Test3 pass&lt;/p&gt;</system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
