@@ -14,7 +14,7 @@
 	  <echo> "hello"</echo>
 	 </target>
 	<target name="zip" depends="phpunit">
-		<zip destfile="${project-name}.zip" basedir="${folder-to-zip}" excludes="database-script.*" />
+		<zip destfile="${project-name}.zip" basedir="${folder-to-zip}" />
 	</target>
 	<target name="unzip">
 		<unzip src="${project-name}.zip" dest="${unzip-destination}" />
